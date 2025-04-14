@@ -11,7 +11,8 @@ body {
 
 /* DARK MODE */
 body.dark-mode {
-  background: #1e1e1e;
+  background: url('1.jpg') no-repeat center center fixed;
+  background-size: cover;
   color: #f0f0f0;
 }
 
