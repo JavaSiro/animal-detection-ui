@@ -53,7 +53,7 @@ body.dark-mode .navbar-brand {
 }
 
 .navbar-menu button {
-  background: #e9eff5;
+  background: #ffffff;
   border: none;
   padding: 10px 20px;
   margin: 6px;
@@ -105,17 +105,30 @@ body.dark-mode .navbar-menu button:hover {
 body.dark-mode .video-frame {
   background: #333;
 }
-
 video {
   width: 100%;
   max-height: 400px;
-  border-radius: 16px;
-  box-shadow: 2px 2px 6px rgba(0,0,0,0.05);
+  border-radius: 12px;
+  background: #f0f0f0;
+  padding: 6px;
+  border: 1px solid #ddd;
+  box-shadow: inset 2px 2px 4px #e0e0e0,
+              inset -2px -2px 4px #ffffff;
+  transition: all 0.2s ease;
+  object-fit: cover; /* This ensures the video covers the container */
 }
 
 body.dark-mode video {
-  box-shadow: 2px 2px 6px rgba(255, 255, 255, 0.1);
+  background: #2a2a2a;
+  border: 1px solid #444;
+  border-radius: 12px;
+  padding: 6px;
+  box-shadow: inset 2px 2px 4px #1c1c1c,
+              inset -2px -2px 4px #383838;
+  object-fit: cover; /* Ensure video fits correctly in dark mode too */
 }
+
+
 
 .info-panel {
   flex: 1;

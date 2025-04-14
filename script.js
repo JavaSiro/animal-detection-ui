@@ -39,9 +39,9 @@ function showLiveCamera() {
     document.body.classList.toggle('dark-mode');
   
     if (document.body.classList.contains('dark-mode')) {
-      this.textContent = '☀️ Light Mode';
+      this.textContent = '🌞 Light Mode';
     } else {
-      this.textContent = '🌙 Dark Mode';
+      this.textContent = '🌑 Dark Mode';
     }
   });
   
