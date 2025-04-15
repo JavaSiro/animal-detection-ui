@@ -32,6 +32,7 @@ function showLiveCamera() {
       alert("Video uploaded! (Backend will process this)");
     };
   }
+
   // JavaScript to toggle dark mode
   const modeToggleBtn = document.getElementById('modeToggle');
 
@@ -43,5 +44,5 @@ function showLiveCamera() {
     } else {
       this.textContent = '🌑 Dark Mode';
     }
-  });
-  
+  }
+);
