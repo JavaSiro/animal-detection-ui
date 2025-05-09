@@ -309,9 +309,9 @@ body.dark-mode .info-panel:hover {
   text-transform: uppercase;
   color: #999;
   width: 7em;
-  height: 3.3em;
+  height: 3.5em;
   overflow: hidden;
-  border-bottom: 0.3em solid #ffffff;
+  border-bottom: 0.1em solid #050505;
 }
 
 .rocker-small {
@@ -328,8 +328,8 @@ body.dark-mode .info-panel:hover {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #999;
-  border: 0.5em solid #ffffff;
+  background-color: #080808;
+  border: 0.5em solid #0c0b0b;
   border-bottom: 0;
 }
 
